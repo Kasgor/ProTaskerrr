@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "152892079602",
+    "project_id": "protasker-df9a5",
+    "storage_bucket": "protasker-df9a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152892079602:android:69f74ff4a3dadfcd5fff6b",
+        "android_client_info": {
+          "package_name": "com.example.protasker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152892079602-b32orgo0ko3rsl5m1p5na73clspm9v08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsvzAdKDFuCKzR5aP_OSfQIXHgkwO-Fg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152892079602-b32orgo0ko3rsl5m1p5na73clspm9v08.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "152892079602-flhars08cds5js1cqoudtc75d4nlg146.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ukma.edu.ua.levchenko.ProTasker"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152892079602:android:3a8b7a0f468fd2d65fff6b",
+        "android_client_info": {
+          "package_name": "com.ukma.edu.ua.kompaniiets.ProTasker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152892079602-b32orgo0ko3rsl5m1p5na73clspm9v08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsvzAdKDFuCKzR5aP_OSfQIXHgkwO-Fg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152892079602-b32orgo0ko3rsl5m1p5na73clspm9v08.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "152892079602-flhars08cds5js1cqoudtc75d4nlg146.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ukma.edu.ua.levchenko.ProTasker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

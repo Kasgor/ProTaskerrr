@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="splash_screen_text">70sp</dimen>
+    <dimen name="screen_title_text_size">40sp</dimen>
+    <dimen name="intro_marginTop">40dp</dimen>
+    <dimen name="intro_image_marginTop">30dp</dimen>
+    <dimen name="start_marginTop">25dp</dimen>
+    <dimen name="start_text_size">25sp</dimen>
+    <dimen name="intro_text_marginStartEnd">20dp</dimen>
+    <dimen name="intro_text_line_spacing_extra">5dp</dimen>
+    <dimen name="intro_text_marginTop">10dp</dimen>
+    <dimen name="intro_text_size">16sp</dimen>
+    <dimen name="btn_marginStartEnd">20dp</dimen>
+    <dimen name="intro_sign_marginTop">50dp</dimen>
+    <dimen name="btn_paddingTopBottom">8dp</dimen>
+    <dimen name="intro_screen_sign_up_btn_marginTop">15dp</dimen>
+    <dimen name="btn_text_size">18sp</dimen>
+
+    <dimen name="sign_up_screen_btn_marginTop">30dp</dimen>
+    <dimen name="toolbar_title_text_size">18sp</dimen>
+    <dimen name="auth_marginTop">40dp</dimen>
+    <dimen name="auth_text_size">16sp</dimen>
+    <dimen name="auth_marginStartEnd">25dp</dimen>
+    <dimen name="auth_card_marginTop">60dp</dimen>
+    <dimen name="cv_elevation">10dp</dimen>
+    <dimen name="cv_corner_radius">10dp</dimen>
+    <dimen name="cvl_padding">16dp</dimen>
+    <dimen name="authtilt_marginStartEnd">16dp</dimen>
+    <dimen name="et_text_size">16sp</dimen>
+    <dimen name="authtil_marginTop">20dp</dimen>
+
+    <dimen name="pdialog_padding">10dp</dimen>
+    <dimen name="pbar_size">50dp</dimen>
+    <dimen name="ptext_marginStart">16dp</dimen>
+    <dimen name="ptext_size">16sp</dimen>
+
+    <dimen name="hnav">200dp</dimen>
+    <dimen name="nav_image">80dp</dimen>
+    <dimen name="nav_marginTS">16dp</dimen>
+    <dimen name="nav_marginT">5dp</dimen>
+    <dimen name="nav_marginB">10dp</dimen>
+    <dimen name="nav_text_size">18sp</dimen>
+    <dimen name="nav_circular_border">1dp</dimen>
+    <dimen name="nav_divheight">0.5dp</dimen>
+
+    <dimen name="profile_marginSE">16dp</dimen>
+    <dimen name="profile_marginTB">10dp</dimen>
+    <dimen name="proffile_padd">16dp</dimen>
+    <dimen name="profile_image">100dp</dimen>
+    <dimen name="profiletil_marginTop">25dp</dimen>
+    <dimen name="profile_et_marginT">20dp</dimen>
+    <dimen name="profile_etMobile_marginT">20dp</dimen>
+    <dimen name="profile_update">30dp</dimen>
+</resources>
