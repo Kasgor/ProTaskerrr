@@ -10,21 +10,38 @@ import com.bumptech.glide.Glide
 import com.example.protasker.R
 
 import com.example.protasker.models.Project
-
+/**
+Adapter class for displaying people in a RecyclerView.
+@param context The context of the activity or fragment.
+@param list The list of Project objects to be displayed.
+ */
 open class ProjectItemsAdapter(private val context: Context,
                                 private val list: ArrayList<Project>):
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private var onClickListener: OnClickListener? = null
+    /**
+    Creates a RecyclerView ViewHolder by inflating the item_project layout.
+    @param parent The parent ViewGroup.
+    @param viewType The type of the view.
+    @return The created ViewHolder.
+     */
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
 
 
         return MyViewHolder(LayoutInflater.from(context).inflate(R.layout.item_project, parent, false))
     }
-
+    /**
+    Returns the number of items in the list.
+    @return The item count.
+     */
     override fun getItemCount(): Int {
         return list.size
     }
-
+    /**
+    Binds the data of a object to the views in the ViewHolder.
+    @param holder The ViewHolder to bind the data to.
+    @param position The position of the item in the list.
+     */
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val model =list[position]
         if (holder is MyViewHolder){

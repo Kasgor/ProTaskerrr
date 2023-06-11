@@ -17,10 +17,20 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.protasker.R
 import com.example.protasker.activities.TaskListActivity
 import com.example.protasker.models.Task
-
+/**
+Adapter class for displaying people in a RecyclerView.
+@param context The context of the activity or fragment.
+@param list The list of Tasks objects to be displayed.
+ */
 open class TaskAdapter(private val context: Context,
                        private val list: ArrayList<Task>):
     RecyclerView.Adapter<RecyclerView.ViewHolder>()  {
+    /**
+    Creates a RecyclerView ViewHolder by inflating the item_task layout.
+    @param parent The parent ViewGroup.
+    @param viewType The type of the view.
+    @return The created ViewHolder.
+     */
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
 
         val view = LayoutInflater.from(context).inflate(R.layout.item_task, parent, false)
@@ -33,11 +43,18 @@ open class TaskAdapter(private val context: Context,
 
         return MyViewHolder(view)
     }
-
+    /**
+    Returns the number of items in the list.
+    @return The item count.
+     */
     override fun getItemCount(): Int {
         return list.size
     }
-
+    /**
+    Binds the data of a object to the views in the ViewHolder.
+    @param holder The ViewHolder to bind the data to.
+    @param position The position of the item in the list.
+     */
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val model = list[position]
 
